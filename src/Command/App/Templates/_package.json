@@ -1,0 +1,33 @@
+{
+  "name": "<%=name%>",
+  "version": "<%=version%>",
+  "description": "<%=description%>",
+  "main": "<%=main%>",
+  "scripts": {
+    "start": "gulp"
+  },
+  "author": "<%=author%>",
+  "license": "ISC",
+  "keywords": ["node-ts"],
+  "devDependencies": {
+    "@types/body-parser": "^1.x",
+    "@types/debug": "0.x",
+    "@types/express": "^4.x",
+    "@types/morgan": "^1.x",
+    "@types/node": "^8.x",
+    "gulp": "^3.x",
+    "gulp-nodemon": "^2.x",
+    "gulp-typescript": "^3.x",
+    "nodemon": "^1.x",
+    "ts-node": "^3.x",
+    "typescript": "^2.x"
+  },
+  "dependencies": {
+    "body-parser": "^1.x",
+    "debug": "^2.x",
+    "express": "^4.x",
+    "morgan": "^1.x",
+    "typescript-ioc":"^0.x"
+  }
+}
+
